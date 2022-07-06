@@ -94,15 +94,42 @@ The directory tree should be structured something like this:
 |
 +-- data
 |   |
-|   +-- ACCESS1.3_fmr.npy 
-|   +-- CNRM-CM5_fmr.npy 
-|   +-- CSIRO-Mk3-6-0_fmr.npy
-|   +-- CanESM2_fmr.npy   
-|   +-- IPSL-CM5A-MR_fmr.npy
-|   +-- MIROC5_fmr.npy
-|   +-- MRI-CGCM3_fmr.npy
-|   +-- NorESM1-ME_fmr.npy
-|   +-- inmcm4_fmr.npy
+|   +-- rc26
+|   |   |
+|   |   +-- ACCESS1.3_fmr.npy 
+|   |   +-- CNRM-CM5_fmr.npy 
+|   |   +-- CSIRO-Mk3-6-0_fmr.npy
+|   |   +-- CanESM2_fmr.npy   
+|   |   +-- IPSL-CM5A-MR_fmr.npy
+|   |   +-- MIROC5_fmr.npy
+|   |   +-- MRI-CGCM3_fmr.npy
+|   |   +-- NorESM1-ME_fmr.npy
+|   |   +-- inmcm4_fmr.npy
+|   |
+|   +-- rcp45
+|   |   |
+|   |   +-- ACCESS1.3_fmr.npy 
+|   |   +-- CNRM-CM5_fmr.npy 
+|   |   +-- CSIRO-Mk3-6-0_fmr.npy
+|   |   +-- CanESM2_fmr.npy   
+|   |   +-- IPSL-CM5A-MR_fmr.npy
+|   |   +-- MIROC5_fmr.npy
+|   |   +-- MRI-CGCM3_fmr.npy
+|   |   +-- NorESM1-ME_fmr.npy
+|   |   +-- inmcm4_fmr.npy
+|   |
+|   +-- rcp85
+|   |   |
+|   |   +-- ACCESS1.3_fmr.npy 
+|   |   +-- CNRM-CM5_fmr.npy 
+|   |   +-- CSIRO-Mk3-6-0_fmr.npy
+|   |   +-- CanESM2_fmr.npy   
+|   |   +-- IPSL-CM5A-MR_fmr.npy
+|   |   +-- MIROC5_fmr.npy
+|   |   +-- MRI-CGCM3_fmr.npy
+|   |   +-- NorESM1-ME_fmr.npy
+|   |   +-- inmcm4_fmr.npy
+|   |
 |   +-- regionalGradientss.pkl
 |   +-- subregionalGradients.pkl
 |   +-- rain_url.txt
