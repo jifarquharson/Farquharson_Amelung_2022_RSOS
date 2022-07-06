@@ -1,4 +1,4 @@
-## Volcanic hazard exacerbated by global warming–driven increase in heavy rainfall
+## Volcanic hazard exacerbated by future global warming–driven increase in heavy rainfall
 ### Jamie I. Farquharson, Falk Amelung
 Rosenstiel School of Marine and Atmospheric Science, University of Miami, Miami, FL, USA
 
@@ -12,7 +12,7 @@ The .txt files 'climate_mod_files_pr.txt' and 'climate_mod_files_ta.txt' in the 
 
 #### Some notes:
 1. I've used Fabio Crameri's colourmaps ```vik``` and ```roma```. These are available at http://www.fabiocrameri.ch/colourmaps.php. Citation: Crameri, F., 2018. Scientific colour-maps. Zenodo. doi: http://doi.org/10.5281/zenodo.1243862.
-2. The climate model results are provided as ```.netcdf``` files from https://esgf-node.llnl.gov/search/cmip5/. Users will have to access these independently and ensure they are in the ```climate_mods``` folder. Because there may be issues with versioning and/or corruption, there is a ```compare_checksum``` function defined in ```__Climate_Forcing_Volcanic_Hazards.ipynb```. Running this function will check the user-accessed file contents are the same as those used in the initial processing and analysis. If there is a problem, contact the corresponding author who can provide archived versions of model data.
+2. The climate model results are provided as ```.netcdf``` files from https://esgf-node.llnl.gov/search/cmip5/. Users will have to access these independently and ensure they are in the ```climate_mods``` folder (in the relevant RCP sub-directory). Because there may be issues with versioning and/or corruption, there is a ```compare_checksum``` function defined in ```__Climate_Forcing_Volcanic_Hazards.ipynb```. Running this function will check the user-accessed file contents are the same as those used in the initial processing and analysis. This has only been provided for RCP 8.5 data (The primary dataset). If there is a problem, contact the corresponding author who can provide archived versions of model data.
 
 The directory tree should be structured something like this:
 
