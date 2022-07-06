@@ -6,6 +6,11 @@ Corresponding author: jifarq89@googlemail.com
 
 ### This notebook performs all the analysis and plots figures for the research article _Volcanic hazard exacerbated by future global warming–driven increase in heavy rainfall_ [accepted]. 
 
+Citation
+
+This GitHub release (v1.0) is citable via its doi: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6803593.svg)](https://doi.org/10.5281/zenodo.6803593)
+
+
 #### Primary data are from nine general circulation models, obtained through Earth System Grid Federation servers, in particular the node hosted by the Lawrence Livermore National Laboratory https://esgf-node.llnl.gov/search/cmip5/.
 
 The .txt files 'climate_mod_files_pr.txt' and 'climate_mod_files_ta.txt' in the ```rcp85``` folder list the files required for the following analyses. To run these code blocks correctly, please ensure that all correct files are downloaded into a directory called ```climate_mods``` in your working directory.
